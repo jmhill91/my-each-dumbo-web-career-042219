@@ -3,6 +3,6 @@ def my_each(arr)
   while i< arr.length do
     yield(arr[i])
     i=i+1 
-    
+  end
   
 end
